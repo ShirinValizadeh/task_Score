@@ -1,0 +1,46 @@
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 30, 185);
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+#clickArea {
+    width: 500px;
+    height : 300px;
+    border: 2px solid #956205;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+  }
+
+
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: white;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 0.3rem;
+    margin: 0.5rem ;
+    color: #956205;
+    /* box-shadow: 0px 1px 10px 5px#956205; */
+    outline:  none;
+}
+.btn:hover{
+    background-color: #956205;
+    color:white ;
+}
+.btn:active{
+    box-shadow: none;
+}
